@@ -1,0 +1,50 @@
+/* Selector {
+    Property: value;
+} */
+* {
+    text-align: right;
+}
+
+body {
+background-image: url(background.jpg.jpg);
+background-size: cover;
+}
+
+h2 {
+    color: red;
+}
+
+p :hover {
+color: #AA4139;
+text-align: center;
+border: 5px solid rgba(255, 176, 170, 0.5);
+cursor: pointer;
+
+}
+
+img {
+    float: left;
+}
+
+p {
+    color: pink !important;
+}
+
+li {
+    list-style: none ;
+    display: inline-block;
+}
+
+.webtext {
+    border: 5px dashed green;
+}
+
+.active {
+color: red;
+
+}
+
+
+
+
+
