@@ -20,8 +20,8 @@ const filterArray = array.filter(num => num % 2 === 0);
 console.log(filterArray);
 
 //reduce
-const reduceArray = array.reduce((acc, num) => {
-    return acc + num;
+const reduceArray = array.reduce((accumulator, num) => {
+    return accumulator + num;
 }, 0);
 
 console.log(reduceArray);
