@@ -1,6 +1,6 @@
 //Type Coercion
-1 == '1';
-1 === '1';
+1 == '1'; //True because of type coercion
+1 === '1';//False because '1' is a string not a number
 
 // Type Coercion Examples
 
